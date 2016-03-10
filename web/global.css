@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html, body {
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subWindow{
+    border: 1px solid black;
+}
+
+#left{
+    position: absolute;
+    width: 50%;
+    height: 90%;
+}
+#right{
+    position: absolute;
+    width: 40%;
+    height: 90%;
+    margin-left: 55%;
+}
