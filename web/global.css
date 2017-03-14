@@ -5,18 +5,30 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-.subWindow{
-    border: 1px solid black;
+.container {
+    position: relative;
+}
+.begin {
+    position: relative;
+}
+.end {
+    position: relative;
 }
 
-#left{
-    position: absolute;
-    width: 50%;
-    height: 90%;
+.element {
+    position: relative;
+    left: 20px;
 }
-#right{
-    position: absolute;
-    width: 40%;
-    height: 90%;
-    margin-left: 55%;
+.key {
+    position: relative;
+    float: left;
+    margin-right: 5px;
+}
+.separator {
+    position: relative;
+    margin-right: 5px;
+    float: left;
+}
+.value {
+    position: relative;
 }

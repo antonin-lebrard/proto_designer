@@ -6,9 +6,11 @@ packages:
     source: hosted
     version: "0.13.2"
   async:
-    description: async
+    description:
+      name: async
+      url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.5.0"
+    version: "1.11.2"
   barback:
     description: barback
     source: hosted
@@ -18,9 +20,11 @@ packages:
     source: hosted
     version: "0.10.0+2"
   collection:
-    description: collection
+    description:
+      name: collection
+      url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.2.0"
+    version: "1.9.1"
   csslib:
     description: csslib
     source: hosted
@@ -57,3 +61,5 @@ packages:
     description: utf
     source: hosted
     version: "0.9.0+2"
+sdks:
+  dart: ">=1.12.0 <2.0.0"
